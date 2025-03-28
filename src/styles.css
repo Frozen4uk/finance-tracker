@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  min-height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.MuiPaper-root {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.MuiTableCell-root {
+  font-size: 0.9rem !important;
+}
+
+.MuiTypography-root {
+  font-family: inherit !important;
+}
+
+.MuiButton-root {
+  text-transform: none !important;
+  font-weight: 500 !important;
+}
+
+.MuiTextField-root .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border-color: #1a237e !important;
+}
+
+.MuiInputLabel-root.Mui-focused {
+  color: #1a237e !important;
+}
+
+.MuiTableHead-root .MuiTableCell-root {
+  background-color: rgba(26, 35, 126, 0.05);
+  font-weight: 600;
+}
+
+.MuiTableRow-root:hover {
+  background-color: rgba(26, 35, 126, 0.05) !important;
+}
+
+.MuiListItem-root {
+  transition: background-color 0.3s ease;
+}
+
+.MuiListItem-root:hover {
+  background-color: rgba(26, 35, 126, 0.05) !important;
+}
+
+.MuiIconButton-root {
+  transition: color 0.3s ease;
+}
+
+.MuiIconButton-root:hover {
+  color: #1a237e !important;
+}
+
+.MuiSelect-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #1a237e !important;
+}
+
+.MuiSelect-icon {
+  color: #1a237e !important;
+}
+
+.MuiDatePicker-root .MuiInputBase-root {
+  width: 100%;
+}
+
+.MuiDatePicker-root .MuiInputBase-root:hover .MuiOutlinedInput-notchedOutline {
+  border-color: #1a237e !important;
+}
+
+.MuiDatePicker-root .MuiInputBase-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #1a237e !important;
+} 

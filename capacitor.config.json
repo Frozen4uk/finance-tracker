@@ -1,0 +1,9 @@
+{
+  "appId": "com.financetracker.app",
+  "appName": "Финансовый трекер",
+  "webDir": "build",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https"
+  }
+}
